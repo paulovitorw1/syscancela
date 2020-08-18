@@ -1,0 +1,41 @@
+span#msg_erros {
+    color: #9f3a38;
+    font-size: 10px;
+    margin-bottom: 0%;
+}
+
+.btn-acoes{
+    margin: 0% 1% 1% 0% !important;
+}
+.acoes{
+    float: none !important;
+}
+.ui.dropdown.selection{
+    /* margin-top: 4.5% !important; */
+    width: 100% !important;
+}
+.content .item {
+    color: black !important;
+}
+#btn-adicionar-rasp{
+    float: right;
+    margin-top: 3%;
+}
+#tabRasp{
+    width: 100% !important;
+}
+#acoes_rasp{
+    width: 25%;
+}
+#btn_cancelarr{
+    margin: 0% 0% 1% 0% !important;
+}
+#colunmBtns{
+    text-align: right;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+/* #tipo_rasp{
+    position: absolute;
+} */

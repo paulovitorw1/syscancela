@@ -1,0 +1,242 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : 25/09/2018, 16:47:41
+    Author     : andersonalves
+*/
+
+.ui.vertical.segment {
+    border-bottom: none;
+}
+
+.ui.error.message {
+    background-color: #f7e7e7 !important;
+    color: #9F3A38;
+    display: block !important;
+    text-align: left;
+}
+
+.image {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 2% !important;
+    width: 15% !important;
+}
+
+.imageIfce {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 4% !important;
+    width: 25% !important;
+}
+
+#formCenter {
+    background-color: #006B43;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 475px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -155px !important;
+    padding-bottom: 60px !important;
+    padding: 1rem;
+    text-align: center;
+}
+#formCenterEmail {
+    background-color: #006B43;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 400px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -155px !important;
+    padding-bottom: 60px !important;
+    padding: 1rem;
+    text-align: center;
+}
+#formCenter .divForm {
+    width: 50% !important;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 70px !important;
+}
+
+.login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-top-color: white;
+    margin-top: -15px;
+}
+
+.ui.message {
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.ui.message {
+    margin-bottom: 0px !important;
+}
+
+.ui.fluid.large.teal.submit.button {
+    background-color: transparent !important;
+    height: 50px;
+    border: 2px solid #fff;
+    color: white;
+}
+
+.ui.fluid.large.teal.submit.button .spanLogin {
+    float: left;
+}
+
+.ui.fluid.large.teal.submit.button .spanIcon {
+    float: right;
+}
+
+.informacoes {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+@media (max-width: 766px) {
+    #formCenter {
+        position: relative;
+    }
+    #formCenter .divForm {
+        width: 80% !important;
+    }
+    .imageIfce {
+        height: auto !important;
+        width: 50% !important;
+    }
+    .image {
+        height: auto !important;
+        width: 50% !important;
+    }
+    .ui.message {
+        margin-bottom: 48px !important;
+    }
+}
+
+@media (min-height: 833px) {
+    #formCenter {
+        position: absolute !important;
+        margin-bottom: 0px !important;
+    }
+}
+/*TELA DE PASSWORD ENVIAR E-MAIL*/
+#formCenterEmail {
+    background-color: #006B43;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 400px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -155px !important;
+    padding-bottom: 60px !important;
+    padding: 1rem;
+    text-align: center;
+}
+
+#formCenterEmail .divForm {
+    width: 50% !important;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 70px !important;
+}
+
+@media (max-width: 766px) {
+    #formCenterEmail {
+        position: relative;
+    }
+    #formCenterEmail .divForm {
+        width: 80% !important;
+    }
+    .imageIfce {
+        height: auto !important;
+        width: 50% !important;
+    }
+    .image {
+        height: auto !important;
+        width: 50% !important;
+    }
+    .ui.message {
+        margin-bottom: 48px !important;
+    }
+}
+
+@media (min-height: 833px) {
+    #formCenterEmail {
+        position: absolute !important;
+        margin-bottom: 0px !important;
+    }
+}
+/*TELA DE RESETAR A SENHA*/
+#formCenterReset {
+    background-color: #006B43;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 360px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -155px !important;
+    padding-bottom: 60px !important;
+    padding: 1rem;
+    text-align: center;
+}
+
+#formCenterReset .divForm {
+    width: 60% !important;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 70px !important;
+}
+@media (max-width: 766px) {
+    #formCenterReset {
+        position: relative;
+    }
+    #formCenterReset .divForm {
+        width: 80% !important;
+    }
+    .imageIfce {
+        height: auto !important;
+        width: 50% !important;
+    }
+    .image {
+        height: auto !important;
+        width: 50% !important;
+    }
+    .ui.message {
+        margin-bottom: 48px !important;
+    }
+}
+
+@media (min-height: 833px) {
+    #formCenterReset {
+        position: absolute !important;
+        margin-bottom: 0px !important;
+    }
+}

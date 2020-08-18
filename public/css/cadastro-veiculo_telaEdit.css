@@ -1,0 +1,32 @@
+.btn-file_edit input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+.img_veiculo_edit {
+    max-width: 100% !important;
+    width: 1000px !important;
+    height: 284px !important;
+    object-fit: cover !important;
+}
+#imagem_veiculo_novo{
+    max-width: 100%;
+    width: 395px;
+    height: 243px;
+    object-fit: cover;
+}
+#imagem_veiculoEdit {
+    max-width: 100%;
+    width: 395px;
+    height: 243px;
+    object-fit: cover;
+}
